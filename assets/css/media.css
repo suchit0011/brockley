@@ -119,6 +119,22 @@ div#navbarNav2 {
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
     border-radius: 5px;
 }
+.bg_img {
+    background-size: 83%;
+    top: 0%;
+    left: -106px;
+}
+.bg_img1 {
+    background-size: 50% !important;
+    top: -1px;
+}
+.bg_img2 {
+    background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+    background-size: 8%;
+}
+.pr_search p {
+    font-size: 14px;
+}
 }
 @media (min-width: 360px) and (max-width: 575px ){
     .header_top .header_top_nav{
@@ -258,7 +274,24 @@ background-size: 32%,19%,18%,19%,19%,67%;
     background: url(../images/Polygon_18.png) no-repeat left -45% top -7%, url(../images/Group_726.png) no-repeat right 82% top 92%,url(../images/Group_724.png) no-repeat right 64% top 50%,url(../images/Polygon_18.png) no-repeat right -19% top 60%;
     background-size: 64%,14%,14%,29%;
 }
-
+.bg_img {
+    background-size: 68%;
+    top: 0%;
+    left: -106px;
+}
+.bg_img1 {
+    background-size: 45% !important;
+    top: -18px;
+    background: url(../images/Polygon_18.png) no-repeat;
+    background-position: right -15% top !important;
+}
+.bg_img2 {
+    background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+    background-size: 8%;
+}
+.pr_search p {
+    font-size: 14px;
+}
 }
 @media (min-width: 576px ) and (max-width: 768px){
     .header_top .nav-link>span {
@@ -359,6 +392,21 @@ background-size: 32%,19%,18%,19%,19%,67%;
     .footer-area .footer-big {
         padding: 2px 0 0px 0;
     }
+    .bg_img {
+        background-size: 54%;
+        top: 0%;
+        left: -61px;
+    }
+    .bg_img1 {
+        background-size: 45% !important;
+        top: -28px;
+        background: url(../images/Polygon_18.png) no-repeat;
+        background-position: right -15% top !important;
+    }
+    .bg_img2 {
+        background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+        background-size: 8%;
+    }
 }
 @media (min-width: 768px ) and (max-width: 991px){
     div#navbarNav2 {
@@ -422,6 +470,18 @@ background-size: 32%,19%,18%,19%,19%,67%;
     }
     .callus button {
         font-size: 27px;
+    }
+    .bg_img {
+        background-size: 41%;
+        top: 0%;
+        left: -48px;
+    }
+    .bg_img1 {
+        background-size: 36%;
+    }
+    .bg_img2 {
+        background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+        background-size: 8%;
     }
     
 }
@@ -494,6 +554,17 @@ background-size: 32%,19%,18%,19%,19%,67%;
     width: 239px;
 }
 
+.bg_img {
+    background-size: 33%;
+    top: 0%;
+    left: -47px;
+}
+.bg_img1 {
+    background-size: 30%;
+}
+.bg_img2 {
+    background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+}
 }
 @media (min-width: 1200px ) and (max-width: 1293px){
     .weare_sec .weare_inner {
@@ -526,5 +597,12 @@ background-size: 32%,19%,18%,19%,19%,67%;
 @media (max-width:991px) {
     .footer-area .footer-menu {
          padding-left:0
+        }
+        div#navbarNav2 {
+            /* background: transparent; */
+            position: absolute;
+            top: 95%;
+            width: 100%;
+            z-index: 1500;
         }
        }

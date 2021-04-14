@@ -348,6 +348,140 @@ padding-bottom: 20px;
       display: none;
   }
 /* --------------- slider closed ------ */
+/* products */
+.product_banner h1{color: #D9A056;font-size: 40px;font-weight: 600;}
+.product_banner p{color: #A8A8A8;font-size: 20px;    }
+.product_banner{position: relative;}
+.bg_img {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Polygon_18.png) no-repeat left 0% top;
+    z-index: 999;
+    width: 100%;
+    background-size: 26%;
+    height: 420px;
+    top: -4%;
+    left: -13px;
+}
+.bg_img1 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Polygon_18.png) no-repeat right 0% top;
+    z-index: 999;
+    width: 100%;
+    background-size: 19%;
+    right: 0;
+    left: 0;
+    top: -35px;
+    height: 420px;
+}
+.bg_img2 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Group_751.png) no-repeat bottom 160px right 28%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+    z-index: 999;
+    width: 100%;
+    background-size: auto;
+    right: 0;
+    left: 0;
+    height: 420px;
+}
+.product_banner_text {
+    background: #231F20;
+    align-items: center;
+    display: flex;
+    height: 270px;
+}
+
+.pr_main {
+    margin-top: 46px;
+    margin-bottom: 5px;
+}
+.pr_main_title p{    font-size: 18px;
+    color: #231F20;}
+.pr_total p{  font-size: 15px;
+    color: #A8A8A8;}
+   .pr_total {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .pr_main_desc {
+        margin: 57px 0px;
+    }
+.alphabet:hover{
+    cursor: pointer;
+}    
+.pr_filter ul{
+    padding-left: 0;
+}
+.pr_filter ul>li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px;
+    
+}
+.filter_active{
+    background-size: cover;
+    background: url(../images/Polygon_35.png) no-repeat center;
+    color: #D9A056; 
+    padding: 10px !important;
+}
+.filter_form i{
+font-size: 20px;
+}
+.filter_form .input-group-text {
+    border: 1px solid #404041;
+    background: #FFF;
+    border-left: none;
+    border-radius: 0 5px 5px 0px !important;
+}
+.filter_form input {
+    border: 1px solid #404041;
+    border-right: none;
+}
+.pr_filter_data {
+    border: 1px solid #E3E6F8;
+    background-color: #F6F8FD;
+    padding-top: 18px;
+}
+
+
+.pr_search li{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    border-bottom: 1px solid #E3E6F8;
+    padding-top: 20px !important;
+}
+
+.pr_search li:nth-of-type(even) {
+    background-color: #F6F8FD;
+  }
+  .pr_search li:last-child  {
+    border:none;
+    background-color: #FFFFFF ;
+  }
+ 
+.pr_search h6{ font-size: 18px; }
+.pr_search span{font-weight: 600; }
+.pr_search p{font-size: 16px; display: inline-block;font-weight: 400;color: #A8A8A8; margin-right: 7px;}
+.pr_search .pr_contact_btn{font-size: 20px;color: #945B12;background: transparent linear-gradient(115deg, #FFCC66 0%, #D9A056 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 8px 11px 14px #D9A0564D;
+    border-radius: 27px; border: none;    padding: 10px 22px; display: none;}
+    .loadmore_btn{
+        border-radius: 27px;
+    }
+    .loadmore_btn {
+        border-radius: 27px;
+        font-size: 19px;
+        background: #FFFFFF;
+        padding: 5px 28px;
+    }
+
 /* ------------------------ footer ----------------------------- */
 
 .footer-area ul {
@@ -391,18 +525,14 @@ padding-bottom: 20px;
 .footer-area .no-padding {
     padding:0!important
    }
-/* .footer-big .row{
-  border-bottom: 1px solid gray;
-} */
+
 .footer-area .footer-big {
     padding:65px 0 0px 0
    }
 .footer-area .footer-big .footer-widget {
     margin-bottom:40px
    }
- /* .footer--light {
-    background:#e7e8ed
-   } */
+
 .footer-area .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
     color:#898b96
    }
@@ -432,7 +562,6 @@ padding-bottom: 20px;
     font-size: 18px;
 }
 .footer-area .mini-footer {
-    /* background:#192027; */
     text-align:center;
     padding:32px 0;
     border-top: 1px solid gray;
@@ -474,7 +603,7 @@ padding-bottom: 20px;
 .footer-area h1,h2,h3,h4,h5,h6,ul,li,a,p{
     font-family: 'Montserrat', sans-serif;
 }
-   /* font-family: 'Montserrat', sans-serif; */
+
    @media (max-width:991px) {
 .footer-area .footer-menu {
      padding-left:0
