@@ -2,12 +2,13 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
   }
-  .sec_1{
-      position: relative;
-  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2.1rem;
+}
 
 .header_inner a.nav-link {
-    font-size: 24px;
+    font-size: 20px;
 }  
 .header_inner .logo-img{
     width: 300px;
@@ -18,6 +19,7 @@ body {
 .header_inner .navbar-light .navbar-nav .nav-link{
     color: #494F59;
 }
+
 .header_top .nav-link>i {
     font-size: 24px;
     color: #D9A056;
@@ -29,26 +31,6 @@ body {
 }
 .header_top,.header_top nav{
     background-color: #090909;
-}
-
-.heading {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 51px;
-    z-index: -1;
-    /* background: url(../images/Polygon_18.png) no-repeat center left -5%, url(../images/Group_726.png) no-repeat right 59% top 95%,url(../images/Group_724.png) no-repeat right 36% top 37%,url(../images/Polygon_18.png) no-repeat right -9% top 36%;
-    background-size: 43%,8%,auto,29%; */
-    
-}
-
-.heading .row{
-    /* margin-top: 250px; */
-    background: url(../images/Polygon_18.png) no-repeat left -26% top -29%, url(../images/Group_726.png) no-repeat right 64% top 86%,url(../images/Group_724.png) no-repeat right 30% top 38%,url(../images/Polygon_18.png) no-repeat right -26% top 29%;
-    background-size: 46%,8%,8%,29%;
-}
-.heading .row>div {
-    margin-top: 189px;
 }
 
 .heading h1{
@@ -73,30 +55,18 @@ body {
 }
 
 /*------------------ services ----------------- */
-section.services {
-    margin-top: 560px;
-}
-/* .services_inner>div{
-    text-align: center;
-    background: url(../images/Polygon_28.png) no-repeat center;
-    background-size: 41%,8%,auto,29%;
-} */
-.service_card>div {
-    text-align: center;
-    background: url(../images/Polygon_28.png) no-repeat center;
-    color: #FFFFFF;
-    padding: 102px 39px;
-    background-size: 137%;
-}
 
 .services h6{
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 400;
     margin-top: 8px;
 }
 .services p{
     color: #A8A8A8;
-    font-size: 18px;
+    font-size: 17px;
+}
+.service_main>img{
+    margin-top: 5px;
 }
 .services button{
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -106,24 +76,13 @@ section.services {
     margin-top: 7px;
 }
 .services button:hover{
-    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
     color: #945B12;
     background: transparent linear-gradient(116deg, #FFCC66 0%, #D9A056 100%) 0% 0% no-repeat padding-box;
     box-shadow: 8px 11px 14px #D9A0564D;
-    /* border-radius: 27px; */
-    /* border: none; */
-    /* padding: 4px 19px; */
-    /* margin-top: 7px; */
 }
+
 /* <!-- who we are --> */
-.weare_sec {
-    /* background: url(../images/Polygon_18.png) no-repeat left 0% top 52%,url(../images/Polygon_18.png) no-repeat left 33% top 39%,url(../images/Polygon_18.png) no-repeat right 33% top 46% ,url(../images/Polygon_18.png) no-repeat right; */
-    margin-top: -232px;
-}
-.weare_sec .weare_inner {
-    padding-top: 260px;
-    background: url(../images/Polygon_18.png) no-repeat left -32% top 52%,url(../images/Polygon_18.png) no-repeat left 21% top 39%,url(../images/Polygon_18.png) no-repeat right 22% top 45% ,url(../images/Polygon_18.png) no-repeat right -34% top 46%;
-}
+
 .weare_sec .weare-img {
     width: 80%;
 }
@@ -163,10 +122,9 @@ section.services {
 /* ------------ call us---------------- */
 .callus {
     padding: 50px 0;
-    background:url(../images/Polygon_18.png) no-repeat left 0% top 15%, transparent linear-gradient(102deg, #FFCC66 0%, #D9A056 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(102deg, #FFCC66 0%, #D9A056 100%) 0% 0% no-repeat padding-box;
+    position: relative;
     box-shadow: 8px 11px 14px #d9a0564d;
-    /* background: url(../images/Polygon_18.png) no-repeat left 0% top 52%, */
-
 }
 .callus_inner {
     display: flex;
@@ -205,19 +163,15 @@ padding-bottom: 20px;
 
 }
 .our_clients img{
-    width: 160px !important;
-    height: 54px;
+    max-width: 160px ;
+   
 }
 .our_clients {
-    /* padding-top: 100px;
-    padding-bottom: 120px; */
     background-color: #F5F6FA !important;
-    /* background: url(../images/Path_1484.png) no-repeat left -9% top 107%,url(../images/Group_730.png) no-repeat left 26% top 19%,url(../images/Group_726.png) no-repeat left 73% top 19%,url(../images/Group_732.png) no-repeat left 34% top 94%,url(../images/Group_732.png) no-repeat left 64% top 94%,url(../images/Polygon_17.png) no-repeat left 114% top 196%; */
 }
 .our_clients_inner{
-    padding-top: 100px;
-    padding-bottom: 120px;
-    background: url(../images/Path_1484.png) no-repeat left -14% top 111%,url(../images/Group_730.png) no-repeat left 26% top 19%,url(../images/Group_726.png) no-repeat left 73% top 19%,url(../images/Group_732.png) no-repeat left 34% top 94%,url(../images/Group_732.png) no-repeat left 64% top 94%,url(../images/Polygon_17.png) no-repeat left 129% top 230%;
+    padding-top: 83px;
+    padding-bottom: 108px;
 }
 /* --------------- slider--------------- */
 
@@ -225,129 +179,7 @@ padding-bottom: 20px;
     text-align:center;
     padding: 30px;
   }
-  /* Slider */
-  .our_works .slick-slide{
-      width: 280px !important;
-      margin: 0;
-  }
-
-
-  .slick-slide {
-      margin: 0px 20px;
-  }
   
-  .slick-slide img {
-      width: 100%;
-  }
-  
-  .slick-slider
-  {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-              user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-          touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-  }
-  
-  .slick-list
-  {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-  }
-  .slick-list:focus
-  {
-      outline: none;
-  }
-  .slick-list.dragging
-  {
-      cursor: pointer;
-      cursor: hand;
-  }
-  
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-      -webkit-transform: translate3d(0, 0, 0);
-         -moz-transform: translate3d(0, 0, 0);
-          -ms-transform: translate3d(0, 0, 0);
-           -o-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-  }
-  
-  .slick-track
-  {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-      margin: 0 auto;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-      display: table;
-      content: '';
-  }
-  .slick-track:after
-  {
-      clear: both;
-  }
-  .slick-loading .slick-track
-  {
-      visibility: hidden;
-  }
-  
-  .slick-slide
-  {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-      float: right;
-  }
-  .slick-slide img
-  {
-      display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-      display: none;
-  }
-  .slick-slide.dragging img
-  {
-      pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-      display: block;
-  }
-  .slick-loading .slick-slide
-  {
-      visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-      display: none;
-  }
-/* --------------- slider closed ------ */
 /* products */
 .product_banner h1{color: #D9A056;font-size: 40px;font-weight: 600;}
 .product_banner p{color: #A8A8A8;font-size: 20px;    }
@@ -610,3 +442,149 @@ font-size: 20px;
     }
    }
    
+   /* ------------------------------------- New Css ---------------------------*/
+
+   /* header section image */
+.sec_1{position: relative;}
+.header_bg {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Polygon_18.png) no-repeat left 0% top;
+    z-index: -1;
+    width: 100%;
+    background-size: 39%;
+    height: 780px;
+    top: 2%;
+    left: -43px;
+}
+.header_bg2 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Polygon_18.png) no-repeat right 0% top;
+    z-index: -1;
+    width: 100%;
+    background-size: 21%;
+    right: 0;
+    left: 0;
+    top: 109px;
+    height: 780px;
+}
+.header_bg3 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Group_726.png) no-repeat bottom 52px left 38%,url(../images/Group_724.png) no-repeat top 184px right 34%;
+    z-index: -1;
+    width: 100%;
+    background-size: 8%;
+    right: 0;
+    left: 0;
+    height: 780px;
+}
+.heading_title {
+    padding-top: 95px;
+}
+.services_inner{
+    position: relative;
+}
+.weare_sec {
+    background: url(../images/Polygon_18.png) repeat-x top -86% left 32%;
+    background-size: 502px;
+    margin-top: 420px;
+}
+.weare_sec .weare_inner {
+    padding-top: 87px;
+    padding-bottom: 0px;
+}
+.service_main {
+    text-align: center;
+    padding: 69px 52px 0px 47px;
+    background: url(../images/Polygon_28.png) no-repeat center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: -83px;
+    top: -15px;
+    max-width: 100%;
+    height: 485px;
+    background-size: 135%;
+}
+section.services {
+    margin-top: 70px;
+}
+.services p {
+    color: #A8A8A8;
+    font-size: 16px;
+    padding: 0 3px;
+}
+.header_inner .navbar-light .navbar-nav .nav-link:hover {
+    color: #D9A056 !important;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.our_clients{
+    position: relative;
+}
+.clients_bg {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Path_1484.png) no-repeat left 0% bottom;
+    z-index: 0;
+    width: 100%;
+    background-size: 15%;
+    height: 243px;
+    top: 37%;
+    left: -131px;
+}
+.clients_bg2 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Polygon_17.png) no-repeat right -10% top -120px;
+    z-index: 0;
+    width: 100%;
+    background-size: 22%;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 399px;
+}
+.clients_bg3 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Group_730.png) no-repeat top 0 left 23%,url(../images/Group_726.png) no-repeat top 0 right 22%;
+    z-index: 1;
+    width: 100%;
+    background-size: 10%;
+    right: 0;
+    left: 0;
+    top: 16px;
+    height: 250px;
+}
+
+.clients_bg4 {
+    position: absolute;
+    padding: 0px;
+    background: url(../images/Group_732.png) no-repeat bottom 0 left 33%,url(../images/Group_732.png) no-repeat bottom 0 right 33%;
+    z-index: 1;
+    width: 100%;
+    background-size: 5%;
+    right: 0;
+    left: 0;
+    bottom: 15px;
+    height: 386px;
+}
+.callus_bg4 {
+    position: absolute;
+    padding: 0;
+    background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 109px right 18%,url(../images/Polygon_20.png) no-repeat bottom -10px right -6%,url(../images/Polygon_20.png) no-repeat bottom 24px right 27%;
+    z-index: 1;
+    width: 100%;
+    background-size: auto,6%,11%,4%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+}
+.owl-item{
+margin:0 !important;
+}

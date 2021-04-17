@@ -38,7 +38,7 @@
                       </ul>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                           <a class="nav-link pr-0" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                         </li>
                         <li class="nav-item">
@@ -67,26 +67,26 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <ul class="navbar-nav ml-auto" id="nav_show_header">
+                    <li class="nav-item nav_show">
+                    <a class="nav-link" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <li class="nav-item nav_show active">
+                    <a class="nav-link" href="./products.html">Products</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav_show">
                     <a class="nav-link" href="#">Industries Served</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav_show">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav_show">
                         <a class="nav-link" href="#">Who We Are</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav_show">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav_show">
                         <a class="nav-link" href="#">Contant</a>
                     </li>
                    
@@ -257,17 +257,18 @@
 </section>
 
   <!-- ----------------------------------- -->
-    <!-- call us -->
-    <section class="callus">
-        <div class="container">
-           <div class="row">
-             <div class="col-12 callus_inner">
-              <h1>To see how we can help you</h1>
-              <button>Call Us Today</button>
-            </div>
-           </div>
-        </div>
-    </section>
+   <!-- call us -->
+   <section class="callus">
+    <div class="callus_bg4 "></div>
+      <div class="container">
+         <div class="row">
+           <div class="col-12 callus_inner">
+            <h1>To see how we can help you</h1>
+            <button>Call Us Today</button>
+          </div>
+         </div>
+      </div>
+  </section>
     <!-- ------------------------------- -->
     <footer class="footer-area footer--light">
         <div class="footer-big">
@@ -427,6 +428,16 @@ $(".pr_result").bind('mouseout', function () {
 });
 });
 
+// var navmenu = document.getElementById("nav_show_header");
+// var navbtns = navmenu.getElementsByClassName("nav_show");
+// for (var i = 0; i < navbtns.length; i++) {
+//   navbtns[i].addEventListener("click", function() {
+//   var current = document.getElementsByClassName("active");
+//   current[0].className = current[0].className.replace(" active", "");
+//   this.className += " active";
+//   });
+// }
+
 // Add active class to the current button (highlight it)
 var header = document.getElementById("alphabet_find");
 var btns = header.getElementsByClassName("alphabet");
@@ -438,5 +449,6 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -4,91 +4,6 @@
     }
 }
 @media (min-width: 319px) and (max-width: 359px ){
-    .header_top nav {
-        padding: 0;
-    }
-    .header_top .nav-link>span{
-        display: none;
-    }
-    .header_inner .logo-img {
-        width: 218px;
-    }
-    nav.navbar.navbar-expand-lg.navbar-light {
-        padding: 0;
-    }
-    .heading .row>div {
-        margin-top: 48px;
-    }
-    .heading {
-        top: 158px;
-    }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        padding: 112px 10px;
-    }
-    .services h6 {
-        font-size: 24px;
-        font-weight: 400;
-    }
-    .services p {
-        font-size: 17px;
-    }
-    section.services {
-        margin-top: 655px;
-    }
-    
-.weare_sec .weare_inner {
-    padding-top: 260px;
-    background: url(../images/Polygon_18.png) no-repeat center;
-    background-size: 138%;
-}
-.our_works .slick-slide{
-    width: 90px !important;
-    margin: 0;
-}
-.our_works h2 {
-    text-align: center;
-    padding: 0px;
-}
-.weare_btn>button {
-    margin-bottom: 24px;
-}
-
-.our_clients img{
-    width:89px !important;
-    height:48px;
-}
-.our_clients_inner{
-    padding-top:67px;
-    padding-bottom:86px;
-    background:url(../images/Path_1484.png) no-repeat left -280% top 173%,url(../images/Group_730.png) no-repeat left -1% top 0%,url(../images/Group_732.png) no-repeat left 74% top 98%,url(../images/Group_739.png) no-repeat left 11% top 52%,url(../images/Polygon_17.png) no-repeat left -71% top 247%;
-    background-size:auto,29%,auto,auto,auto;
-}
-.callus_inner{
-    flex-direction:column;
-    align-items: center;
-}
-.callus h1 {
-    font-size: 22px;
-    margin-bottom: 14px;
-}
-.callus button {
-    font-size: 24px;
-    padding: 8px 33px;
-}
-.heading {
-    top: 42px;
-}
-.heading .row{
-    background: url(../images/Polygon_18.png) no-repeat left -88% top -4%, url(../images/Group_726.png) no-repeat right 64% top 86%,url(../images/Group_724.png) no-repeat right 30% top 38%,url(../images/Polygon_18.png) no-repeat right -21% top 73%;
-    background-size:78%,8%,8%,35%;
-}
-.heading h1 {
-    font-size: 33px;
-    margin-top: 45px;
-}
 .footer-area .widget-about img {
     display: block;
     margin-bottom: -15px;
@@ -135,117 +50,41 @@ div#navbarNav2 {
 .pr_search p {
     font-size: 14px;
 }
+.heading_title {
+    padding-top: 0px;
 }
-@media (min-width: 360px) and (max-width: 575px ){
-    .header_top .header_top_nav{
-        flex-direction: column;
-    }
-    .header_top nav, .header_inner nav {
-        padding: 8px 0px 16px 0px;
-    }
-    .header_top .nav-link>i {
-        font-size: 21px;
-    }
-    .header_top .nav-link>span {
-        font-size: 17px;
-    }
-    .header_top_nav .nav-link{
-        padding-bottom: 0px;
-    }
-    .our_works .slick-slide{
-        width: 90px !important;
-        margin: 0;
-    }
-    .header_inner .logo-img {
-        width: 202px !important;
-    }   
-    .navbar-toggler-icon {
-        width: 1.2em;
-    }
-    div#navbarNav2 {
-        background: #FFFFFF;
-        margin-top: -20px;
-        padding: 5px 25px;
-        box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
-        border-radius: 5px;
-    }
-    .weare_sec .learn_btn{
-        font-size: 20px;
-        width: 144px;
-    }
-    .heading {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 87px;
-        z-index: -1;
-    }
-    .heading .row>div {
-        margin-top: 0px;
-    }
-    .heading h1 {
-        font-size: 37px;
-        font-weight: 600;
-        margin-top:116px;
-    }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        min-height: 520px;
-    }
-    .services h6 {
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 8px;
-    }
-    .services p {
-        color: #A8A8A8;
-        font-size: 16px;
-    }
-    section.services {
-        padding-top:80px;
-    }
-    .services_inner {
-        padding-top: 5px;
-        
-    }
-    .service_card {
-        margin-bottom: 15px;
-    }
-.weare_btn>button {
-    margin-bottom: 16px;
+.heading h1 {
+    font-size: 28px;
 }
-.weare_sec .weare_inner {
-    padding-top: 260px;
-    background: url(../images/Polygon_18.png) no-repeat center;
+.header_bg {
+    background-size: 109%;
+    left: -60px;
+    top: 5%;
 }
-.our_works h2 {
-    padding: 2px;
+.header_bg2 {
+    background: url(../images/Polygon_18.png) no-repeat right -16% top;
+    background-size: 48%;
+    top: 367px;
 }
-.our_clients img{
-    width: 94px !important;
-    height: 38px;
+.header_bg3 {
+    background: url(../images/Group_726.png) no-repeat bottom 95px left 20%,url(../images/Group_724.png) no-repeat top 482px right 63%;
+    background-size: 13%;
+    height: 840px;
 }
-.our_clients_inner {
-padding-top: 49px;
-padding-bottom: 86px;
-background: url(../images/Path_1484.png) no-repeat left -14% top 111%,url(../images/Group_730.png) no-repeat left 6% top 7%,url(../images/Group_726.png) no-repeat left 65% top 3%,url(../images/Group_732.png) no-repeat left 40% top 94%,url(../images/Group_732.png) no-repeat left 87% top 94%,url(../images/Polygon_17.png) no-repeat left 194% top -188%;
-background-size: 32%,19%,18%,19%,19%,67%;
+.header_top .nav-link>span{
+    display: none;
 }
-.callus_inner{
-    flex-direction:column;
-    align-items: center;
-}
-.callus h1 {
-    font-size: 25px;
-    margin-bottom: 14px;
-}
-.callus button {
-    font-size: 26px;
-    padding: 8px 33px;
+.header_inner .logo-img {
+    width: 180px;
 }
 
+div#navbarNav2 {
+    background: #FFFFFF;
+    margin-top: -20px;
+    padding: 5px 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+}
 .widget-about {
     display: flex;
     justify-content: center;
@@ -270,10 +109,6 @@ background-size: 32%,19%,18%,19%,19%,67%;
 .footer-widget-title.footer-menu {
     text-align: center;
 }
-.heading .row {
-    background: url(../images/Polygon_18.png) no-repeat left -45% top -7%, url(../images/Group_726.png) no-repeat right 82% top 92%,url(../images/Group_724.png) no-repeat right 64% top 50%,url(../images/Polygon_18.png) no-repeat right -19% top 60%;
-    background-size: 64%,14%,14%,29%;
-}
 .bg_img {
     background-size: 68%;
     top: 0%;
@@ -292,13 +127,825 @@ background-size: 32%,19%,18%,19%,19%,67%;
 .pr_search p {
     font-size: 14px;
 }
+.heading_title {
+    padding-top: 0px;
 }
-@media (min-width: 576px ) and (max-width: 768px){
-    .header_top .nav-link>span {
+.heading h1 {
+    font-size: 28px;
+}
+.header_bg {
+    background-size: 78%;
+    left: -70px;
+    top: 3%;
+}
+.header_bg2 {
+    background: url(../images/Polygon_18.png) no-repeat right -8% top;
+    background-size: 39%;
+    top: 297px;
+}
+.header_bg3 {
+    background: url(../images/Group_726.png) no-repeat bottom 37px left 6%,url(../images/Group_724.png) no-repeat top 451px right 70%;
+    background-size: 13%;
+    height: 840px;
+}
+.header_top .nav-link>span{
+    display: none;
+}
+.service_main {
+    max-width: 100%;
+    height: 458px;
+    background-size: 154%;
+    padding: 76px 52px 0px 47px;
+}
+.ser_md_card1 {
+    margin-top: 425px;
+}
+.ser_md_card2 {
+    margin-top: 429px;
+}
+.services p {
+    color: #A8A8A8;
+    font-size: 15px;
+    padding: 2px 0px;
+}
+.service_main>img {
+    margin-top: -10px;
+    width: 60px;
+}
+.ser_md_card1 {
+    margin-top: 414px;
+}
+.ser_md_card2 {
+    margin-top: 414px;
+}
+.weare_sec {
+    background: url(../images/Polygon_18.png) repeat-x top 10% left 766%;
+    background-size: 385px;
+    margin-top: 333px;
+}
+.weare_sec .weare_inner {
+    padding-top: 110px;
+}
+.weare_btn>button {
+    margin-bottom: 20px;
+}
+.weare_btn>button {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.our_works h2{
+    text-align: center;
+    padding: 0px;
+    font-size: 34px;
+    margin-top: 46px;
+}
+.our_clients h2{
+    font-size: 34px;
+}
+.our_clients_inner {
+    padding-top: 94px;
+    padding-bottom: 106px;
+}
+.callus_inner{
+    flex-direction:column;
+    align-items: center;
+}
+.callus h1 {
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+.callus button {
+    font-size: 22px;
+    padding: 7px 30px;
+}
+.clients_bg {
+    background-size: 35%;
+    top: 28%;
+    left: -49px;
+    height: 260px;
+}
+.clients_bg2 {
+    background: url(../images/Polygon_17.png) no-repeat right -23% top -62px;
+    background-size: 42%;
+}
+.clients_bg3 {
+    background: url(../images/Group_730.png) no-repeat top 0 left 9%,url(../images/Group_726.png) no-repeat top 0 right 36%;
+    background-size: 17%;
+    top: 18px;
+}
+.clients_bg4 {
+    background: url(../images/Group_732.png) no-repeat bottom 0 left 40%,url(../images/Group_732.png) no-repeat bottom 0 right 9%;
+    background-size: 16%;
+}
+.our_clients p {
+    font-size: 18px;
+
+}
+.our_clients img {
+    max-width: 117px;
+}
+.callus_bg4 {
+    background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+    background-size: auto,12%,29%,12%;
+}
+}
+@media (min-width: 360px) and (max-width: 400px ){
+    
+div#navbarNav2 {
+    background: #FFFFFF;
+    margin-top: -20px;
+    padding: 5px 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+}
+.widget-about {
+    display: flex;
+    justify-content: center;
+}
+.footer-area img {
+    max-width: 100%;
+    width: 36%;
+}
+
+
+.footer-area .widget-about img {
+    display: block;
+    margin-bottom: -15px;
+}
+.footer-area .footer-big {
+    padding: 18px 0 0px 0;
+}
+.footer-area .footer-big .footer-widget {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.footer-widget-title.footer-menu {
+    text-align: center;
+}
+
+.bg_img {
+    background-size: 68%;
+    top: 0%;
+    left: -106px;
+}
+.bg_img1 {
+    background-size: 45% !important;
+    top: -18px;
+    background: url(../images/Polygon_18.png) no-repeat;
+    background-position: right -15% top !important;
+}
+.bg_img2 {
+    background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+    background-size: 8%;
+}
+.pr_search p {
+    font-size: 14px;
+}
+.heading_title {
+    padding-top: 0px;
+}
+.heading h1 {
+    font-size: 28px;
+}
+.header_bg {
+    background-size: 78%;
+    left: -70px;
+    top: 3%;
+}
+.header_bg2 {
+    background: url(../images/Polygon_18.png) no-repeat right -8% top;
+    background-size: 39%;
+    top: 297px;
+}
+.header_bg3 {
+    background: url(../images/Group_726.png) no-repeat bottom 37px left 6%,url(../images/Group_724.png) no-repeat top 451px right 70%;
+    background-size: 13%;
+    height: 840px;
+}
+.header_top .nav-link>span{
+    display: none;
+}
+.header_inner .logo-img {
+    width: 218px;
+}
+.service_main {
+    max-width: 100%;
+    height: 422px;
+    background-size: 138%;
+    padding: 76px 52px 0px 47px;
+}
+.ser_md_card1 {
+    margin-top: 425px;
+}
+.ser_md_card2 {
+    margin-top: 429px;
+}
+.services p {
+    color: #A8A8A8;
+    font-size: 15px;
+    padding: 2px 0px;
+}
+.service_main>img {
+    margin-top: -10px;
+    width: 60px;
+}
+.ser_md_card1 {
+    margin-top: 414px;
+}
+.ser_md_card2 {
+    margin-top: 414px;
+}
+.weare_sec {
+    background: url(../images/Polygon_18.png) repeat-x top 0% left 1319%;
+    background-size: 385px;
+    margin-top: 333px;
+}
+.weare_sec .weare_inner {
+    padding-top: 110px;
+}
+.weare_btn>button {
+    margin-bottom: 20px;
+}
+.weare_btn>button {
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.our_works h2{
+    text-align: center;
+    padding: 0px;
+    font-size: 34px;
+    margin-top: 46px;
+}
+.our_clients h2{
+    font-size: 34px;
+}
+.our_clients_inner {
+    padding-top: 94px;
+    padding-bottom: 106px;
+}
+.callus_inner{
+    flex-direction:column;
+    align-items: center;
+}
+.callus h1 {
+    font-size: 25px;
+    margin-bottom: 14px;
+}
+.callus button {
+    font-size: 22px;
+    padding: 7px 30px;
+}
+.clients_bg {
+    background-size: 35%;
+    top: 30%;
+    left: -49px;
+    height: 260px;
+}
+.clients_bg2 {
+    background: url(../images/Polygon_17.png) no-repeat right -23% top -62px;
+    background-size: 42%;
+}
+.clients_bg3 {
+    background: url(../images/Group_730.png) no-repeat top 0 left 9%,url(../images/Group_726.png) no-repeat top 0 right 36%;
+    background-size: 17%;
+    top: 18px;
+}
+.clients_bg4 {
+    background: url(../images/Group_732.png) no-repeat bottom 0 left 40%,url(../images/Group_732.png) no-repeat bottom 0 right 9%;
+    background-size: 16%;
+}
+.our_clients img {
+    max-width: 117px;
+}
+.callus_bg4 {
+    background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+    background-size: auto,12%,29%,12%;
+}
+}
+@media (min-width: 401px ) and (max-width: 450px){
+    div#navbarNav2 {
+        background: #FFFFFF;
+        margin-top: -20px;
+        padding: 5px 25px;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
+        border-radius: 5px;
+    }
+    .widget-about {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area img {
+        max-width: 100%;
+        width: 36%;
+    }
+    
+    
+    .footer-area .widget-about img {
+        display: block;
+        margin-bottom: -15px;
+    }
+    .footer-area .footer-big {
+        padding: 18px 0 0px 0;
+    }
+    .footer-area .footer-big .footer-widget {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-widget-title.footer-menu {
+        text-align: center;
+    }
+ 
+    .bg_img {
+        background-size: 68%;
+        top: 0%;
+        left: -106px;
+    }
+    .bg_img1 {
+        background-size: 45% !important;
+        top: -18px;
+        background: url(../images/Polygon_18.png) no-repeat;
+        background-position: right -15% top !important;
+    }
+    .bg_img2 {
+        background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+        background-size: 8%;
+    }
+    .pr_search p {
+        font-size: 14px;
+    }
+    .heading_title {
+        padding-top: 0px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .header_bg {
+        background-size: 78%;
+        left: -70px;
+        top: 3%;
+    }
+    .header_bg2 {
+        background: url(../images/Polygon_18.png) no-repeat right -8% top;
+        background-size: 39%;
+        top: 297px;
+    }
+    .header_bg3 {
+        background: url(../images/Group_726.png) no-repeat bottom 37px left 6%,url(../images/Group_724.png) no-repeat top 451px right 70%;
+        background-size: 13%;
+        height: 840px;
+    }
+    .header_top .nav-link>span{
+        display: none;
+    }
+    .header_inner .logo-img {
+        width: 218px;
+    }
+    .service_main {
+        max-width: 100%;
+        height: 422px;
+        background-size: 123%;
+        padding: 76px 52px 0px 47px;
+    }
+    .ser_md_card1 {
+        margin-top: 425px;
+    }
+    .ser_md_card2 {
+        margin-top: 429px;
+    }
+    .services p {
+        color: #A8A8A8;
+        font-size: 15px;
+        padding: 2px 20px;
+    }
+    .service_main>img {
+        margin-top: -10px;
+        width: 60px;
+    }
+    .ser_md_card1 {
+        margin-top: 414px;
+    }
+    .ser_md_card2 {
+        margin-top: 414px;
+    }
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top 0% left 353%;
+        background-size: 385px;
+        margin-top: 333px;
+    }
+    .weare_sec .weare_inner {
+        padding-top: 110px;
+    }
+    .weare_btn>button {
+        margin-bottom: 20px;
+    }
+    .weare_btn>button {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .our_works h2{
+        text-align: center;
+        padding: 0px;
+        font-size: 35px;
+        margin-top: 46px;
+    }
+    .our_clients h2{
+        font-size: 35px;
+    }
+    .our_clients_inner {
+        padding-top: 94px;
+        padding-bottom: 106px;
+    }
+    .callus_inner{
+        flex-direction:column;
+        align-items: center;
+    }
+    .callus h1 {
+        font-size: 29px;
+        margin-bottom: 14px;
+    }
+    .callus button {
+        font-size: 24px;
+        padding: 7px 30px;
+    }
+    .clients_bg {
+        background-size: 35%;
+        top: 31%;
+        left: -49px;
+        height: 262px;
+    }
+    .clients_bg2 {
+        background: url(../images/Polygon_17.png) no-repeat right -23% top -62px;
+        background-size: 42%;
+    }
+    .clients_bg3 {
+        background: url(../images/Group_730.png) no-repeat top 0 left 9%,url(../images/Group_726.png) no-repeat top 0 right 36%;
+        background-size: 17%;
+        top: 18px;
+    }
+    .clients_bg4 {
+        background: url(../images/Group_732.png) no-repeat bottom 0 left 40%,url(../images/Group_732.png) no-repeat bottom 0 right 9%;
+        background-size: 16%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+        background-size: auto,12%,29%,12%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+        background-size: auto,12%,29%,12%;
+    }
+    
+}
+@media (min-width: 451px ) and (max-width: 509px){
+    div#navbarNav2 {
+        background: #FFFFFF;
+        margin-top: -20px;
+        padding: 5px 25px;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
+        border-radius: 5px;
+    }
+    .widget-about {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area img {
+        max-width: 100%;
+        width: 36%;
+    }
+    .footer-area .widget-about img {
+        display: block;
+        margin-bottom: -15px;
+    }
+    .footer-area .footer-big {
+        padding: 18px 0 0px 0;
+    }
+    .footer-area .footer-big .footer-widget {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-widget-title.footer-menu {
+        text-align: center;
+    }
+    .bg_img {
+        background-size: 68%;
+        top: 0%;
+        left: -106px;
+    }
+    .bg_img1 {
+        background-size: 45% !important;
+        top: -18px;
+        background: url(../images/Polygon_18.png) no-repeat;
+        background-position: right -15% top !important;
+    }
+    .bg_img2 {
+        background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+        background-size: 8%;
+    }
+    .pr_search p {
+        font-size: 14px;
+    }
+    .heading_title {
+        padding-top: 0px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .header_bg {
+        background-size: 78%;
+        left: -70px;
+        top: 3%;
+    }
+    .header_bg2 {
+        background: url(../images/Polygon_18.png) no-repeat right -8% top;
+        background-size: 39%;
+        top: 297px;
+    }
+    .header_bg3 {
+        background: url(../images/Group_726.png) no-repeat bottom 37px left 6%,url(../images/Group_724.png) no-repeat top 451px right 70%;
+        background-size: 13%;
+        height: 840px;
+    }
+    .header_top .nav-link>span{
+        display: none;
+    }
+    .header_inner .logo-img {
+        width: 218px;
+    }
+    .service_main {
+        max-width: 100%;
+        height: 422px;
+        background-size: 108%;
+        padding: 76px 52px 0px 47px;
+    }
+    .ser_md_card1 {
+        margin-top: 425px;
+    }
+    .ser_md_card2 {
+        margin-top: 429px;
+    }
+    .services p {
+        color: #A8A8A8;
+        font-size: 15px;
+        padding: 2px 20px;
+    }
+    .service_main>img {
+        margin-top: -10px;
+        width: 60px;
+    }
+    .ser_md_card1 {
+        margin-top: 414px;
+    }
+    .ser_md_card2 {
+        margin-top: 414px;
+    }
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top 0% left 214%;
+        background-size: 385px;
+        margin-top: 333px;
+    }
+    .weare_sec .weare_inner {
+        padding-top: 110px;
+    }
+    .weare_btn>button {
+        margin-bottom: 20px;
+    }
+    .weare_btn>button {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .our_works h2{
+        text-align: center;
+        padding: 0px;
+        font-size: 35px;
+        margin-top: 46px;
+    }
+    .our_clients h2{
+        font-size: 35px;
+    }
+    .our_clients_inner {
+        padding-top: 94px;
+        padding-bottom: 106px;
+    }
+    .callus_inner{
+        flex-direction:column;
+        align-items: center;
+    }
+    .callus h1 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .callus button {
+        font-size: 24px;
+        padding: 7px 30px;
+    }
+    .clients_bg {
+        background-size: 29%;
+        top: 37%;
+        left: -49px;
+    }
+    .clients_bg2 {
+        background: url(../images/Polygon_17.png) no-repeat right -23% top -62px;
+        background-size: 34%;
+    }
+    .clients_bg3 {
+        background: url(../images/Group_730.png) no-repeat top 0 left 9%,url(../images/Group_726.png) no-repeat top 0 right 36%;
+        background-size: 17%;
+        top: 18px;
+    }
+    .clients_bg4 {
+        background: url(../images/Group_732.png) no-repeat bottom 0 left 40%,url(../images/Group_732.png) no-repeat bottom 0 right 9%;
+        background-size: 16%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+        background-size: auto,12%,29%,12%;
+    }
+
+}
+@media (min-width: 510px ) and (max-width: 576px){
+    div#navbarNav2 {
+        background: #FFFFFF;
+        margin-top: -20px;
+        padding: 5px 25px;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
+        border-radius: 5px;
+    }
+    .widget-about {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area img {
+        max-width: 100%;
+        width: 36%;
+    }
+    .footer-area .widget-about img {
+        display: block;
+        margin-bottom: -15px;
+    }
+    .footer-area .footer-big {
+        padding: 18px 0 0px 0;
+    }
+    .footer-area .footer-big .footer-widget {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-widget-title.footer-menu {
+        text-align: center;
+    }
+   
+    .bg_img {
+        background-size: 68%;
+        top: 0%;
+        left: -106px;
+    }
+    .bg_img1 {
+        background-size: 45% !important;
+        top: -18px;
+        background: url(../images/Polygon_18.png) no-repeat;
+        background-position: right -15% top !important;
+    }
+    .bg_img2 {
+        background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
+        background-size: 8%;
+    }
+    .pr_search p {
+        font-size: 14px;
+    }
+    .heading_title {
+        padding-top: 0px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .header_bg {
+        background-size: 78%;
+        left: -70px;
+        top: 3%;
+    }
+    .header_bg2 {
+        background: url(../images/Polygon_18.png) no-repeat right -8% top;
+        background-size: 39%;
+        top: 297px;
+    }
+    .header_bg3 {
+        background: url(../images/Group_726.png) no-repeat bottom 37px left 6%,url(../images/Group_724.png) no-repeat top 451px right 70%;
+        background-size: 13%;
+        height: 840px;
+    }
+    .header_top .nav-link>span{
+        display: none;
+    }
+    .header_inner .logo-img {
+        width: 218px;
+    }
+    .service_main {
+        max-width: 100%;
+        height: 422px;
+        background-size: 96%;
+        padding: 76px 52px 0px 47px;
+    }
+    .ser_md_card1 {
+        margin-top: 425px;
+    }
+    .ser_md_card2 {
+        margin-top: 429px;
+    }
+    .services p {
+        color: #A8A8A8;
+        font-size: 15px;
+        padding: 2px 69px;
+    }
+    .service_main>img {
+        margin-top: -10px;
+        width: 60px;
+    }
+    .ser_md_card1 {
+        margin-top: 414px;
+    }
+    .ser_md_card2 {
+        margin-top: 414px;
+    }
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top 0% left 154%;
+        background-size: 385px;
+        margin-top: 333px;
+    }
+    .weare_sec .weare_inner {
+        padding-top: 110px;
+    }
+    .weare_btn>button {
+        margin-bottom: 20px;
+    }
+    .weare_btn>button {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .our_works .slick-slide{
+        width:120px !important;
+        margin: 0;
+    }
+    .our_works h2 {
+        text-align: center;
+        padding: 0px;
+    }
+    .our_works h2{
+        text-align: center;
+        padding: 0px;
+        font-size: 35px;
+        margin-top: 46px;
+    }
+    .our_clients h2{
+        font-size: 35px;
+    }
+    .our_clients_inner {
+        padding-top: 94px;
+        padding-bottom: 106px;
+    }
+    .callus_inner{
+        flex-direction:column;
+        align-items: center;
+    }
+    .callus h1 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .callus button {
+        font-size: 24px;
+        padding: 7px 30px;
+    }
+    .clients_bg {
+        background-size: 24%;
+        top: 38%;
+        left: -49px;    
+    }
+    .clients_bg2 {
+        background: url(../images/Polygon_17.png) no-repeat right -16% top -62px;
+        background-size: 34%;
+    }
+    .clients_bg3 {
+        background: url(../images/Group_730.png) no-repeat top 0 left 9%,url(../images/Group_726.png) no-repeat top 0 right 36%;
+        background-size: 14%;
+        top: 18px;
+    }
+    .clients_bg4 {
+        background: url(../images/Group_732.png) no-repeat bottom 0 left 40%,url(../images/Group_732.png) no-repeat bottom 0 right 9%;
+        background-size: 15%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 155px right 15%,url(../images/Polygon_20.png) no-repeat bottom 25px right -20%,url(../images/Polygon_20.png) no-repeat bottom 3px right 25%;
+        background-size: auto,12%,29%,12%;
+    }
+    /* .weare_sec .weare-img {
+        width: 100%;
+    } */
+}
+@media (min-width: 576px ) and (max-width: 767px){
+    /* .header_top .nav-link>span {
         font-size: 14px;
         color: #FFFFFF;
         margin-left: 8px;
-    }
+    } */
    
     div#navbarNav2 {
         background: #FFFFFF;
@@ -306,72 +953,6 @@ background-size: 32%,19%,18%,19%,19%,67%;
         padding: 5px 25px;
         box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
         border-radius: 5px;
-    }
-    .heading .row {
-        background: url(../images/Polygon_18.png) no-repeat left -27% top -5%, url(../images/Group_726.png) no-repeat right 49% top 92%,url(../images/Group_724.png) no-repeat right 27% top 38%,url(../images/Polygon_18.png) no-repeat right -25% top 41%;
-        background-size: 60%,15%,11%,29%;
-    }
-    .heading h1 {
-        font-size: 25px;
-        font-weight: 600;
-    }
-    .heading {
-        top: 36px;
-    }
-    .heading .learn_btn {
-        margin-top: 11px;
-    }
-    section.services {
-        margin-top: 362px;
-    }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        padding: 113px 39px;
-        background-size: 127%;
-    }
-    .weare_sec .weare-img {
-        width: 100%;
-    }
-    .weare_sec .weare_inner {
-        padding-top: 260px;
-        background: url(../images/Polygon_18.png) no-repeat left -889% top 26%,url(../images/Polygon_18.png) no-repeat left 982% top 26%;
-    }
-    .weare_btn>button {
-        font-size: 16px;
-        margin-bottom: 14px;
-    }
-      
-    .weare_sec .learn_btn{
-        margin-top: 14px;
-    }
-    .our_works .slick-slide{
-        width: 120px !important;
-        margin: 0;
-    }
-    .our_works h2{
-        padding: 7px;
-    }
-    .our_clients img{
-        width: 100px !important;
-        height: 48px;
-    }
-    .our_clients_inner{
-        padding-top: 66px;
-        padding-bottom: 109px;
-        background: url(../images/Path_1484.png) no-repeat left -18% top 101%,url(../images/Group_730.png) no-repeat left 7% top 14%,url(../images/Group_726.png) no-repeat left 77% top -1%,url(../images/Group_732.png) no-repeat left 34% top 94%,url(../images/Group_732.png) no-repeat left 64% top 94%,url(../images/Polygon_17.png) no-repeat left 136% top -57%;
-        background-size: 26%,19%,18%,auto,auto,43%;
-    }
-    .callus h1 {
-        font-size: 25px;
-        color: #945B12;
-        font-weight: 600;
-        padding-right: 18px;
-    }
-    .callus button {
-        font-size: 23px;
-        padding: 18px 34px;
     }
     
     .widget-about{
@@ -381,7 +962,7 @@ background-size: 32%,19%,18%,19%,19%,67%;
     .widget-about {
         display: flex;
         justify-content: center;
-    }
+    } 
     .footer-area img {
         max-width: 100%;
         width: 41%;
@@ -407,6 +988,124 @@ background-size: 32%,19%,18%,19%,19%,67%;
         background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
         background-size: 8%;
     }
+    .heading_title {
+        padding-top: 0px;
+    }
+    .heading h1 {
+        font-size: 28px;
+    }
+    .header_bg {
+        background-size: 91%;
+        left: -112px;
+        top: 8%;
+    }
+    .header_bg2 {
+        background: url(../images/Polygon_18.png) no-repeat right -8% top;
+        background-size: 32%;
+        top: 130px;
+    }
+    .header_bg3 {
+        background: url(../images/Group_726.png) no-repeat bottom 204px left 83%,url(../images/Group_724.png) no-repeat top 163px right 31%;
+        background-size: 10%;
+    }
+    .header_top .nav-link>span {
+        font-size: 14px;
+    }
+    .header_top .nav-link>i {
+        font-size: 22px;
+    }
+    .service_main {
+        max-width: 100%;
+        height: 422px;
+        background-size: 98%;
+    }
+    .ser_md_card1 {
+        margin-top: 425px;
+    }
+    .ser_md_card2 {
+        margin-top: 429px;
+    }
+    .services p {
+        color: #A8A8A8;
+        font-size: 15px;
+        padding: 0px 59px;
+    }
+    .service_main>img {
+        margin-top: -10px;
+        width: 60px;
+    }
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top -2% left 84%;
+        background-size: 385px;
+        margin-top: 333px;
+    }
+    .weare_sec .weare_inner {
+        padding-top: 110px;
+    }
+    .weare_btn>button {
+        margin-bottom: 20px;
+    }
+    .weare_btn>button {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .weare_sec .weare-img {
+        width: 100%;
+    }
+    .our_works .slick-slide{
+        width: 120px !important;
+        margin: 0;
+    }
+    .our_works h2{
+        padding: 7px;
+    }
+    .our_works h2{
+        text-align: center;
+        padding: 0px;
+        font-size: 35px;
+        margin-top: 46px;
+    }
+    .our_clients h2{
+        font-size: 37px;
+    }
+    .our_clients_inner {
+        padding-top: 94px;
+        padding-bottom: 106px;
+    }
+    .callus_inner{
+        flex-direction:column;
+        align-items: center;
+    }
+    .callus h1 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .callus button {
+        font-size: 24px;
+        padding: 7px 30px;
+    }
+    .clients_bg {
+        background-size: 26%;
+        top: 39%;
+        left: -49px;
+    }
+    .clients_bg2 {
+        background: url(../images/Polygon_17.png) no-repeat right -16% top -79px;
+        background-size: 34%;
+    }
+    .clients_bg3 {
+        background: url(../images/Group_730.png) no-repeat top 0 left 18%,url(../images/Group_726.png) no-repeat top 0 right 25%;
+        background-size: 13%;
+        top: 18px;
+    }
+    .clients_bg4 {
+        background: url(../images/Group_732.png) no-repeat bottom 0 left 32%,url(../images/Group_732.png) no-repeat bottom 0 right 31%;
+        background-size: 10%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 147px right 15%,url(../images/Polygon_20.png) no-repeat bottom -7px right -20%,url(../images/Polygon_20.png) no-repeat bottom 11px right 29%;
+        background-size: auto,12%,29%,9%;
+    }
 }
 @media (min-width: 768px ) and (max-width: 991px){
     div#navbarNav2 {
@@ -415,61 +1114,6 @@ background-size: 32%,19%,18%,19%,19%,67%;
         padding: 5px 25px;
         box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 6px 16px rgb(0 0 0 / 16%);
         border-radius: 5px;
-    }
-    .heading .row {
-        background: url(../images/Polygon_18.png) no-repeat left -42% top -11%, url(../images/Group_726.png) no-repeat right 51% top 97%,url(../images/Group_724.png) no-repeat right 30% top 40%,url(../images/Polygon_18.png) no-repeat right -26% top 41%;
-        background-size: 58%,10%,10%,29%;
-    }
-    .heading h1 {
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .heading .learn_btn{
-        margin-top: 7PX;
-    }
-    section.services {
-        margin-top: 365px;
-    }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        padding: 83px 174px;
-        background-size: 89%;
-    }
-    .weare_sec .weare_inner {
-        padding-top: 260px;
-        background: url(../images/Polygon_18.png) no-repeat left -113% top 29%,url(../images/Polygon_18.png) no-repeat left 214% top 30%;
-    }
-    .weare_btn>button {
-        font-size: 17px;
-        margin-bottom: 15px;
-    }
-    .weare_sec .weare-img {
-        width: 98%;
-    }
-    .our_works .slick-slide{
-        width: 170px !important;
-        margin: 0;
-    }
-    .our_works h2{
-        padding:12px
-    }
-    .our_clients img {
-        width: 93px !important;
-        height: 45px;
-    }
-    .our_clients_inner {
-        padding-top: 75px;
-        padding-bottom: 103px;
-        background: url(../images/Path_1484.png) no-repeat left -42% top 125%,url(../images/Group_730.png) no-repeat left 17% top 18%,url(../images/Group_726.png) no-repeat left 80% top 16%,url(../images/Group_732.png) no-repeat left 32% top 96%,url(../images/Group_732.png) no-repeat left 66% top 97%,url(../images/Polygon_17.png) no-repeat left 241% top 199%;
-        background-size: auto,11%,15%,auto,auto,auto;
-    }
-    .callus h1 {
-        font-size: 26px;
-    }
-    .callus button {
-        font-size: 27px;
     }
     .bg_img {
         background-size: 41%;
@@ -483,76 +1127,109 @@ background-size: 32%,19%,18%,19%,19%,67%;
         background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
         background-size: 8%;
     }
-    
-}
-@media (min-width: 992px ) and (max-width: 1199px){
-    .header_inner a.nav-link{
-        font-size:16px
-    }
-    .heading_inner {
-        padding: 0;
-    }
-    .heading .row {
-        background: url(../images/Polygon_18.png) no-repeat left -26% top -9%, url(../images/Group_726.png) no-repeat right 64% top 86%,url(../images/Group_724.png) no-repeat right 30% top 38%,url(../images/Polygon_18.png) no-repeat right -26% top 42%;
-        background-size: 46%,8%,8%,29%;
+    .heading_title {
+        padding-top: 0px;
     }
     .heading h1 {
-        font-size: 31px;
-        font-weight: 600;
+        font-size: 34px;
     }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        padding: 79px 7px;
-        background-size: 212%;
+    .header_bg {
+        background-size: 70%;
+        left: -97px;
     }
-    .services h6 {
-        font-size: 23px;
-        font-weight: 400;
-        margin-top: 12px;
+    .header_bg2 {
+        background: url(../images/Polygon_18.png) no-repeat right -3% top;
+        background-size: 26%;
+    }
+    .header_bg3 {
+        background: url(../images/Group_726.png) no-repeat bottom 204px left 65%,url(../images/Group_724.png) no-repeat top 184px right 34%;
+        background-size: 9%;
+    }   
+    .service_main {
+        max-width: 100%;
+        height: 406px;
+        background-size: 75%;
+    }
+    .ser_md_card1 {
+        margin-top: 425px;
+    }
+    .ser_md_card2 {
+        margin-top: 429px;
     }
     .services p {
         color: #A8A8A8;
-        font-size: 16px;
+        font-size: 15px;
+        padding: 0px 153px;
     }
-    section.services {
-        margin-top: 470px;
+    .service_main>img {
+        margin-top: -15px;
+        width: 70px;
     }
-    .service_card>div {
-        text-align: center;
-        background: url(../images/Polygon_28.png) no-repeat center;
-        color: #FFFFFF;
-        padding: 108px 15px;
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top -2% left 84%;
+        background-size: 385px;
+        margin-top: 333px;
     }
     .weare_sec .weare_inner {
-        background: url(../images/Polygon_18.png) no-repeat left -35% top 40%,url(../images/Polygon_18.png) no-repeat left 21% top 39%,url(../images/Polygon_18.png) no-repeat right 20% top 40% ,url(../images/Polygon_18.png) no-repeat right -34% top 41%;
-        background-size: 42%;
+        padding-top: 110px;
     }
-    .our_works .slick-slide{
-        width: 220px !important;
-        margin: 0;
+    .weare_btn>button {
+        margin-bottom: 20px;
     }
-    .heading .learn_btn{
-        margin-top: 20px;
+    .weare_btn>button {
+        margin-bottom: 14px;
+        font-size: 16px;
     }
-    
-.weare_btn>button{
-    margin-bottom: 20px;
+    .weare_sec .weare-img {
+        width: 100%;
+    }
+
+
+    .our_works h2{
+        text-align: center;
+        padding: 0px;
+        font-size: 37px;
+        margin-top: 53px;
+    }
+    .our_clients h2{
+        font-size: 37px;
+    }
+    .our_clients_inner {
+        padding-top: 94px;
+        padding-bottom: 106px;
+    }
+    .callus h1 {
+        font-size: 33px;
+        margin-bottom: 14px;
+    }
+    .callus button {
+        font-size: 26px;
+        padding: 7px 30px;
+    }
+    .clients_bg {
+        background-size: 20%;
+        top: 39%;
+        left: -49px;
+    }
+    .clients_bg2 {
+        background: url(../images/Polygon_17.png) no-repeat right -16% top -79px;
+        background-size: 34%;
+    }
+    .clients_bg3 {
+        background: url(../images/Group_730.png) no-repeat top 0 left 18%,url(../images/Group_726.png) no-repeat top 0 right 25%;
+        background-size: 13%;
+        top: 18px;
+    }
+    .clients_bg4 {
+        background: url(../images/Group_732.png) no-repeat bottom 0 left 32%,url(../images/Group_732.png) no-repeat bottom 0 right 31%;
+        background-size: 9%;
+    }
+    .callus_bg4 {
+        background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 93px right 9%,url(../images/Polygon_20.png) no-repeat bottom -8px right -9%,url(../images/Polygon_20.png) no-repeat bottom 102px right 98%;
+        background-size: auto,8%,15%,6%;
+    }
 }
-.our_clients_inner {
-    padding-top: 100px;
-    padding-bottom: 120px;
-    background: url(../images/Path_1484.png) no-repeat left -11% top 100%,url(../images/Group_730.png) no-repeat left 26% top 19%,url(../images/Group_726.png) no-repeat left 73% top 19%,url(../images/Group_732.png) no-repeat left 34% top 94%,url(../images/Group_732.png) no-repeat left 64% top 94%,url(../images/Polygon_17.png) no-repeat left 122% top -66%;
-    background-size: 22%,14%,14%,auto,auto,32%;
-}
-.our_clients img {
-    width: 127px !important;
-    height: 44px;
-}
-.header_inner .logo-img {
-    width: 239px;
-}
+@media (min-width: 992px ) and (max-width: 1199px){
 
 .bg_img {
     background-size: 33%;
@@ -565,41 +1242,127 @@ background-size: 32%,19%,18%,19%,19%,67%;
 .bg_img2 {
     background: url(../images/Group_751.png) no-repeat bottom 160px right 36%,url(../images/Group_751.png) no-repeat top 19px right 63%;
 }
+/* -------------------- NEW CODE -------------*/
+.header_inner .logo-img {
+    width: 200px;
+}
+.header_inner a.nav-link {
+    font-size: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 1.1rem;
+}
+.header_bg {
+    background-size: 61%;
+    top: 0%;
+    left: -108px;
+}
+.header_bg2 {
+    background: url(../images/Polygon_18.png) no-repeat right -4% top;
+    background-size: 22%;
+}
+.header_bg3 {
+    background: url(../images/Group_726.png) no-repeat bottom 172px left 50%,url(../images/Group_724.png) no-repeat top 184px right 34%;
+    background-size: 8%;
+}
+.service_main {
+    text-align: center;
+    padding: 153px 0px 0px 0px;
+    background: url(../images/Polygon_28.png) no-repeat center;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    top: -15px;
+    max-width: 100%;
+    height: 615px;
+    background-size: 144%;
+}
+.services p {
+    color: #A8A8A8;
+    font-size: 14px;
+    padding: 0px 17px;
+}
+
+.service_main>img {
+    margin-top: 10px;
+    width: 50px;
+}
+.weare_sec {
+    background: url(../images/Polygon_18.png) repeat-x top -2% left 72%;
+    background-size: 363px;
+    margin-top: 420px;
+}
+.weare_sec .weare_inner {
+    padding-top: 110px;
+}
+.weare_btn>button {
+    margin-bottom: 20px;
+}
+.our_works .slick-slide{
+    width: 220px !important;
+    margin: 0;
+}
+.heading .learn_btn{
+    margin-top: 20px;
+}
+.our_works h2{
+    text-align: center;
+    padding: 0px;
+    font-size: 41px;
+    margin-top: 53px;
+}
+.our_clients h2{
+    font-size: 41px;
+}
+.our_clients_inner {
+    padding-top: 100px;
+    padding-bottom: 118px;
+}
+.callus h1 {
+    font-size: 33px;
+    margin-bottom: 14px;
+}
+.callus button {
+    font-size: 26px;
+    padding: 7px 30px;
+}
+.clients_bg {
+    background-size: 16%;
+    top: 42%;
+    left: -49px;
+}
+.clients_bg2 {
+    background: url(../images/Polygon_17.png) no-repeat right -12% top -79px;
+    background-size: 28%;
+}
+.clients_bg3 {
+    background: url(../images/Group_730.png) no-repeat top 0 left 20%,url(../images/Group_726.png) no-repeat top 0 right 22%;
+    background-size: 12%;
+    top: 18px;
+}
+.clients_bg4 {
+    background: url(../images/Group_732.png) no-repeat bottom 0 left 32%,url(../images/Group_732.png) no-repeat bottom 0 right 31%;
+    background-size: 8%;
+}
+.callus_bg4 {
+    background: url(../images/Polygon_22.png) no-repeat bottom 14px left 9%,url(../images/Polygon_21.png) no-repeat bottom 93px right 9%,url(../images/Polygon_20.png) no-repeat bottom -8px right -9%,url(../images/Polygon_20.png) no-repeat bottom -3px right 18%;
+    background-size: auto,8%,15%,7%;
+}
 }
 @media (min-width: 1200px ) and (max-width: 1293px){
-    .weare_sec .weare_inner {
-        padding-top: 260px;
-        background: url(../images/Polygon_18.png) no-repeat left -32% top 25%,url(../images/Polygon_18.png) no-repeat left 23% top 23%,url(../images/Polygon_18.png) no-repeat right 22% top 22% ,url(../images/Polygon_18.png) no-repeat right -34% top 16%;
-        background-size: 37%;
+    .weare_sec {
+        background: url(../images/Polygon_18.png) repeat-x top -63% left 15%;
+        background-size: 502px;
+        margin-top: 426px;
     }
-    .service_card>div {
-        background-size: 150%;
-    }
-    .our_clients_inner {
-        background: url(../images/Path_1484.png) no-repeat left -14% top 117%,url(../images/Group_730.png) no-repeat left 20% top 12%,url(../images/Group_726.png) no-repeat left 76% top 9%,url(../images/Group_732.png) no-repeat left 34% top 94%,url(../images/Group_732.png) no-repeat left 64% top 94%,url(../images/Polygon_17.png) no-repeat left 136% top 231%;
-        background-size: auto,15%,14%,auto,auto,auto;
-    }
-    
-    .header_inner a.nav-link {
-        font-size: 20px;
-    }
-    .services h6 {
-        font-size: 24px;
-    }
-    .services p {
-        font-size: 16px;
-    }
-    .weare_btn>button {
-        font-size: 16px;
-    }
-  
 }
 @media (max-width:991px) {
     .footer-area .footer-menu {
          padding-left:0
         }
         div#navbarNav2 {
-            /* background: transparent; */
             position: absolute;
             top: 95%;
             width: 100%;
